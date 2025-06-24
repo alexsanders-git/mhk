@@ -1,0 +1,35 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.as-body-inner {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.as-page-content {
+    margin-top: 100px;
+}
+
+.as-container {
+    width: 100%;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    @media only screen and (max-width: $media-xl) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media only screen and (max-width: $media-sm) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
