@@ -21,10 +21,6 @@
      object-fit: cover;
   aspect-ratio: 1/1;
 }
-.as-block-gallery .not-found {
-  margin-bottom: 20px;
-  font-size: 1.35rem;
-}
 .as-block-gallery .button {
   text-align: center;
 }
