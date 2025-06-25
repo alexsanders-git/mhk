@@ -19,6 +19,16 @@ eval("document.addEventListener('DOMContentLoaded', function () {\n  Fancybox.bi
 
 /***/ }),
 
+/***/ "./assets/js/scripts/reviews.js":
+/*!**************************************!*\
+  !*** ./assets/js/scripts/reviews.js ***!
+  \**************************************/
+/***/ (() => {
+
+eval("document.addEventListener('DOMContentLoaded', function () {\n  var blocks = document.querySelectorAll('.as-block-reviews');\n  if (!blocks.length) return;\n  blocks.forEach(function (block) {\n    var slider = block.querySelector('.swiper');\n    var buttonNext = block.querySelector('.swiper-button-next');\n    var buttonPrev = block.querySelector('.swiper-button-prev');\n    var swiper = new Swiper(slider, {\n      slidesPerView: 1,\n      navigation: {\n        nextEl: buttonNext,\n        prevEl: buttonPrev\n      }\n    });\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkb2N1bWVudCIsImFkZEV2ZW50TGlzdGVuZXIiLCJibG9ja3MiLCJxdWVyeVNlbGVjdG9yQWxsIiwibGVuZ3RoIiwiZm9yRWFjaCIsImJsb2NrIiwic2xpZGVyIiwicXVlcnlTZWxlY3RvciIsImJ1dHRvbk5leHQiLCJidXR0b25QcmV2Iiwic3dpcGVyIiwiU3dpcGVyIiwic2xpZGVzUGVyVmlldyIsIm5hdmlnYXRpb24iLCJuZXh0RWwiLCJwcmV2RWwiXSwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi9hc3NldHMvanMvc2NyaXB0cy9yZXZpZXdzLmpzPzBiYjkiXSwic291cmNlc0NvbnRlbnQiOlsiZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsICgpID0+IHtcclxuICAgIGNvbnN0IGJsb2NrcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5hcy1ibG9jay1yZXZpZXdzJyk7XHJcblxyXG4gICAgaWYgKCFibG9ja3MubGVuZ3RoKSByZXR1cm47XHJcblxyXG4gICAgYmxvY2tzLmZvckVhY2goYmxvY2sgPT4ge1xyXG4gICAgICAgIGNvbnN0IHNsaWRlciA9IGJsb2NrLnF1ZXJ5U2VsZWN0b3IoJy5zd2lwZXInKTtcclxuICAgICAgICBjb25zdCBidXR0b25OZXh0ID0gYmxvY2sucXVlcnlTZWxlY3RvcignLnN3aXBlci1idXR0b24tbmV4dCcpO1xyXG4gICAgICAgIGNvbnN0IGJ1dHRvblByZXYgPSBibG9jay5xdWVyeVNlbGVjdG9yKCcuc3dpcGVyLWJ1dHRvbi1wcmV2Jyk7XHJcblxyXG4gICAgICAgIGNvbnN0IHN3aXBlciA9IG5ldyBTd2lwZXIoc2xpZGVyLCB7XHJcbiAgICAgICAgICAgIHNsaWRlc1BlclZpZXc6IDEsXHJcbiAgICAgICAgICAgIG5hdmlnYXRpb246IHtcclxuICAgICAgICAgICAgICAgIG5leHRFbDogYnV0dG9uTmV4dCxcclxuICAgICAgICAgICAgICAgIHByZXZFbDogYnV0dG9uUHJldixcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH0pO1xyXG4gICAgfSk7XHJcbn0pOyJdLCJtYXBwaW5ncyI6IkFBQUFBLFFBQVEsQ0FBQ0MsZ0JBQWdCLENBQUMsa0JBQWtCLEVBQUUsWUFBTTtFQUNoRCxJQUFNQyxNQUFNLEdBQUdGLFFBQVEsQ0FBQ0csZ0JBQWdCLENBQUMsbUJBQW1CLENBQUM7RUFFN0QsSUFBSSxDQUFDRCxNQUFNLENBQUNFLE1BQU0sRUFBRTtFQUVwQkYsTUFBTSxDQUFDRyxPQUFPLENBQUMsVUFBQUMsS0FBSyxFQUFJO0lBQ3BCLElBQU1DLE1BQU0sR0FBR0QsS0FBSyxDQUFDRSxhQUFhLENBQUMsU0FBUyxDQUFDO0lBQzdDLElBQU1DLFVBQVUsR0FBR0gsS0FBSyxDQUFDRSxhQUFhLENBQUMscUJBQXFCLENBQUM7SUFDN0QsSUFBTUUsVUFBVSxHQUFHSixLQUFLLENBQUNFLGFBQWEsQ0FBQyxxQkFBcUIsQ0FBQztJQUU3RCxJQUFNRyxNQUFNLEdBQUcsSUFBSUMsTUFBTSxDQUFDTCxNQUFNLEVBQUU7TUFDOUJNLGFBQWEsRUFBRSxDQUFDO01BQ2hCQyxVQUFVLEVBQUU7UUFDUkMsTUFBTSxFQUFFTixVQUFVO1FBQ2xCTyxNQUFNLEVBQUVOO01BQ1o7SUFDSixDQUFDLENBQUM7RUFDTixDQUFDLENBQUM7QUFDTixDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXSwiZmlsZSI6Ii4vYXNzZXRzL2pzL3NjcmlwdHMvcmV2aWV3cy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/js/scripts/reviews.js\n");
+
+/***/ }),
+
 /***/ "./assets/scss/as-admin-style.scss":
 /*!*****************************************!*\
   !*** ./assets/scss/as-admin-style.scss ***!
@@ -49,6 +59,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2dhbGxlcnkvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvZ2FsbGVyeS9zdHlsZS5zY3NzP2IzNmQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/gallery/style.scss\n");
+
+/***/ }),
+
+/***/ "./template-parts/acf-blocks/reviews/style.scss":
+/*!******************************************************!*\
+  !*** ./template-parts/acf-blocks/reviews/style.scss ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL3Jldmlld3Mvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvcmV2aWV3cy9zdHlsZS5zY3NzPzBlNDYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/reviews/style.scss\n");
 
 /***/ })
 
@@ -140,6 +161,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/as-scripts": 0,
 /******/ 			"assets/css/as-style": 0,
+/******/ 			"template-parts/acf-blocks/reviews/style": 0,
 /******/ 			"template-parts/acf-blocks/gallery/style": 0,
 /******/ 			"assets/css/as-admin-style": 0
 /******/ 		};
@@ -191,10 +213,12 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/reviews/style.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

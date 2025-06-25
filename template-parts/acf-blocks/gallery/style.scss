@@ -2,6 +2,12 @@
 @import "assets/scss/utils/mixings";
 
 .as-block-gallery {
+    margin: 90px 0;
+
+    @media only screen and (max-width: $media-md) {
+        margin: 45px 0;
+    }
+
     .title {
         margin-bottom: 38px;
         text-align: center;

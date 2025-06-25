@@ -1,3 +1,6 @@
+.as-block-gallery {
+  margin: 90px 0;
+}
 .as-block-gallery .title {
   margin-bottom: 38px;
   text-align: center;
@@ -37,6 +40,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .as-block-gallery {
+    margin: 45px 0;
+  }
   .as-block-gallery .title {
     margin-bottom: 20px;
   }

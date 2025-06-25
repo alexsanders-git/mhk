@@ -2,5 +2,63 @@
 @import "assets/scss/utils/mixings";
 
 .as-block-reviews {
-    background: seagreen;
+    padding: 116px 0;
+    background: var(--as-lightgray-color);
+
+    .slider {
+        padding: 0 109px;
+
+        @media only screen and (max-width: $media-xl) {
+            padding: 0;
+        }
+    }
+
+    .slider__item {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+
+        &-tagline {
+            margin-bottom: 17px;
+            font-size: 13px;
+            line-height: 1.4;
+            text-transform: uppercase;
+            color: var(--as-gold-color);
+        }
+
+        &-title {
+            margin-bottom: 24px;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        &-content {
+            margin-bottom: 11px;
+            font-family: 'Helvetica', sans-serif;
+            color: var(--as-gray-color);
+        }
+
+        &-name {
+            margin-bottom: 36px;
+            font-size: 15px;
+            line-height: 1.9;
+            color: var(--as-gray-color);
+        }
+    }
+
+    .as-button {
+        @media only screen and (max-width: $media-sm) {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--as-gold-color);
+
+        @media only screen and (max-width: $media-md) {
+            display: none;
+        }
+    }
 }

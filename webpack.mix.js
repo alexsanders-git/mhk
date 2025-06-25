@@ -28,3 +28,6 @@ mix.sass('assets/scss/as-admin-style.scss', 'assets/css')
 // ACF Blocks
 mix.sass('template-parts/acf-blocks/gallery/style.scss', 'template-parts/acf-blocks/gallery')
     .sourceMaps();
+
+mix.sass('template-parts/acf-blocks/reviews/style.scss', 'template-parts/acf-blocks/reviews')
+    .sourceMaps();
