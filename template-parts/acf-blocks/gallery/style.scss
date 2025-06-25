@@ -28,6 +28,7 @@
     .gallery__item {
         width: 100%;
         max-width: calc(25% - 15px);
+        cursor: pointer;
 
         @media only screen and (max-width: $media-lg) {
             max-width: calc(33.333% - 15px);

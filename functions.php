@@ -11,6 +11,7 @@ function as_theme_enqueue_scripts()
 	// Styles
 	wp_enqueue_style('swiper', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', [], AS_THEME_VERSION);
 	wp_enqueue_style('fancyapps', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css', [], AS_THEME_VERSION);
+	wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', [], AS_THEME_VERSION);
 	wp_enqueue_style('as-style', get_template_directory_uri().'/assets/css/as-style.css', [], AS_THEME_VERSION);
 
 	// Scripts
