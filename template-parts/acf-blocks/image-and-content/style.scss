@@ -1,0 +1,85 @@
+@import "assets/scss/utils/media";
+@import "assets/scss/utils/mixings";
+
+.as-block-image-and-content {
+    position: relative;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        min-height: 668px;
+
+        @media only screen and (max-width: $media-xl) {
+            min-height: 450px;
+        }
+
+        @media only screen and (max-width: $media-md) {
+            flex-direction: column;
+            max-height: unset;
+            margin: 0 -30px;
+        }
+    }
+
+    .image,
+    .content {
+        width: 100%;
+        max-width: calc(50% - 35px);
+
+        @media only screen and (max-width: $media-md) {
+            max-width: unset;
+        }
+    }
+
+    .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+
+        @media only screen and (max-width: $media-md) {
+            position: static;
+            height: 250px;
+        }
+
+        img {
+            @include as-image;
+        }
+    }
+
+    .content {
+        position: relative;
+        left: calc(50% + 35px);
+        padding: 50px 0;
+
+        @media only screen and (max-width: $media-lg) {
+            left: 50%;
+        }
+
+        @media only screen and (max-width: $media-md) {
+            left: 0;
+            padding: 50px 30px;
+        }
+    }
+
+    .tagline {
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.4;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--as-gold-color);
+    }
+
+    .title {
+        margin-bottom: 33px;
+    }
+
+    .description {
+        margin-bottom: 27px;
+        font-size: 15px;
+        line-height: 1.85;
+        color: var(--as-gray-color);
+    }
+}

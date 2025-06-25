@@ -62,6 +62,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./template-parts/acf-blocks/image-and-content/style.scss":
+/*!****************************************************************!*\
+  !*** ./template-parts/acf-blocks/image-and-content/style.scss ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3M/ZjgzNSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/image-and-content/style.scss\n");
+
+/***/ }),
+
 /***/ "./template-parts/acf-blocks/reviews/style.scss":
 /*!******************************************************!*\
   !*** ./template-parts/acf-blocks/reviews/style.scss ***!
@@ -161,6 +172,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/as-scripts": 0,
 /******/ 			"assets/css/as-style": 0,
+/******/ 			"template-parts/acf-blocks/image-and-content/style": 0,
 /******/ 			"template-parts/acf-blocks/reviews/style": 0,
 /******/ 			"template-parts/acf-blocks/gallery/style": 0,
 /******/ 			"assets/css/as-admin-style": 0
@@ -213,12 +225,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/reviews/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/reviews/style.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/image-and-content/style.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

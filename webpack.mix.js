@@ -31,3 +31,6 @@ mix.sass('template-parts/acf-blocks/gallery/style.scss', 'template-parts/acf-blo
 
 mix.sass('template-parts/acf-blocks/reviews/style.scss', 'template-parts/acf-blocks/reviews')
     .sourceMaps();
+
+mix.sass('template-parts/acf-blocks/image-and-content/style.scss', 'template-parts/acf-blocks/image-and-content')
+    .sourceMaps();
