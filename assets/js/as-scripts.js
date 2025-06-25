@@ -7,8 +7,28 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./assets/js/scripts/fancybox.js":
+/*!***************************************!*\
+  !*** ./assets/js/scripts/fancybox.js ***!
+  \***************************************/
+/***/ (() => {
+
+eval("document.addEventListener('DOMContentLoaded', function () {\n  Fancybox.bind('[data-fancybox]', {\n    Carousel: {\n      transition: 'slide'\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkb2N1bWVudCIsImFkZEV2ZW50TGlzdGVuZXIiLCJGYW5jeWJveCIsImJpbmQiLCJDYXJvdXNlbCIsInRyYW5zaXRpb24iXSwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi9hc3NldHMvanMvc2NyaXB0cy9mYW5jeWJveC5qcz9lNmZkIl0sInNvdXJjZXNDb250ZW50IjpbImRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ0RPTUNvbnRlbnRMb2FkZWQnLCAoKSA9PiB7XHJcbiAgICBGYW5jeWJveC5iaW5kKCdbZGF0YS1mYW5jeWJveF0nLCB7XHJcbiAgICAgICAgQ2Fyb3VzZWw6IHtcclxuICAgICAgICAgICAgdHJhbnNpdGlvbjogJ3NsaWRlJ1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG59KTsiXSwibWFwcGluZ3MiOiJBQUFBQSxRQUFRLENBQUNDLGdCQUFnQixDQUFDLGtCQUFrQixFQUFFLFlBQU07RUFDaERDLFFBQVEsQ0FBQ0MsSUFBSSxDQUFDLGlCQUFpQixFQUFFO0lBQzdCQyxRQUFRLEVBQUU7TUFDTkMsVUFBVSxFQUFFO0lBQ2hCO0VBQ0osQ0FBQyxDQUFDO0FBQ04sQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W10sImZpbGUiOiIuL2Fzc2V0cy9qcy9zY3JpcHRzL2ZhbmN5Ym94LmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./assets/js/scripts/fancybox.js\n");
+
+/***/ }),
+
+/***/ "./assets/scss/as-admin-style.scss":
+/*!*****************************************!*\
+  !*** ./assets/scss/as-admin-style.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvc2Nzcy9hcy1hZG1pbi1zdHlsZS5zY3NzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2FzX3dlYnBhY2tfY29uZmlnLy4vYXNzZXRzL3Njc3MvYXMtYWRtaW4tc3R5bGUuc2Nzcz8yZThhIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/scss/as-admin-style.scss\n");
+
+/***/ }),
 
 /***/ "./assets/scss/as-style.scss":
 /*!***********************************!*\
@@ -16,7 +36,19 @@
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvc2Nzcy9hcy1zdHlsZS5zY3NzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2FzX3dlYnBhY2tfY29uZmlnLy4vYXNzZXRzL3Njc3MvYXMtc3R5bGUuc2Nzcz9iNjY5Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/scss/as-style.scss\n");
+
+/***/ }),
+
+/***/ "./template-parts/acf-blocks/gallery/style.scss":
+/*!******************************************************!*\
+  !*** ./template-parts/acf-blocks/gallery/style.scss ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2dhbGxlcnkvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvZ2FsbGVyeS9zdHlsZS5zY3NzP2IzNmQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/gallery/style.scss\n");
 
 /***/ })
 
@@ -107,7 +139,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/as-scripts": 0,
-/******/ 			"assets/css/as-style": 0
+/******/ 			"assets/css/as-style": 0,
+/******/ 			"template-parts/acf-blocks/gallery/style": 0,
+/******/ 			"assets/css/as-admin-style": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -157,7 +191,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

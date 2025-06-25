@@ -1,11 +1,15 @@
 // Utils
 @import 'utils/vars';
 @import 'utils/media';
+@import 'utils/mixings';
 
 // Defaults
 @import 'base/reset';
 @import 'base/fonts';
 @import 'base/general';
+
+// Components
+@import 'components/button';
 
 // Sections
 @import 'sections/header';

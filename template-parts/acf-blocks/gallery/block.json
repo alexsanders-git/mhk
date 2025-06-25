@@ -1,0 +1,22 @@
+{
+    "name": "as/gallery",
+    "version": "0.0.1",
+    "title": "Gallery",
+    "description": "A custom gallery block",
+    "style": [
+        "file:./style.css"
+    ],
+    "category": "alex_sanders",
+    "icon": "block-default",
+    "keywords": [
+        "alex_sanders"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "render.php",
+        "validate": "false"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
