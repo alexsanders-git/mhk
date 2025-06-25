@@ -9,6 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./assets/js/scripts/banner.js":
+/*!*************************************!*\
+  !*** ./assets/js/scripts/banner.js ***!
+  \*************************************/
+/***/ (() => {
+
+eval("document.addEventListener('DOMContentLoaded', function () {\n  var blocks = document.querySelectorAll('.as-block-banner');\n  if (!blocks.length) return;\n  blocks.forEach(function (block) {\n    var slider = block.querySelector('.swiper');\n    var pagination = block.querySelector('.swiper-pagination');\n    var swiper = new Swiper(slider, {\n      slidesPerView: 1,\n      pagination: {\n        el: pagination\n      }\n    });\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkb2N1bWVudCIsImFkZEV2ZW50TGlzdGVuZXIiLCJibG9ja3MiLCJxdWVyeVNlbGVjdG9yQWxsIiwibGVuZ3RoIiwiZm9yRWFjaCIsImJsb2NrIiwic2xpZGVyIiwicXVlcnlTZWxlY3RvciIsInBhZ2luYXRpb24iLCJzd2lwZXIiLCJTd2lwZXIiLCJzbGlkZXNQZXJWaWV3IiwiZWwiXSwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi9hc3NldHMvanMvc2NyaXB0cy9iYW5uZXIuanM/YTkxYyJdLCJzb3VyY2VzQ29udGVudCI6WyJkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4ge1xyXG4gICAgY29uc3QgYmxvY2tzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLmFzLWJsb2NrLWJhbm5lcicpO1xyXG5cclxuICAgIGlmICghYmxvY2tzLmxlbmd0aCkgcmV0dXJuO1xyXG5cclxuICAgIGJsb2Nrcy5mb3JFYWNoKGJsb2NrID0+IHtcclxuICAgICAgICBjb25zdCBzbGlkZXIgPSBibG9jay5xdWVyeVNlbGVjdG9yKCcuc3dpcGVyJyk7XHJcbiAgICAgICAgY29uc3QgcGFnaW5hdGlvbiA9IGJsb2NrLnF1ZXJ5U2VsZWN0b3IoJy5zd2lwZXItcGFnaW5hdGlvbicpO1xyXG5cclxuICAgICAgICBjb25zdCBzd2lwZXIgPSBuZXcgU3dpcGVyKHNsaWRlciwge1xyXG4gICAgICAgICAgICBzbGlkZXNQZXJWaWV3OiAxLFxyXG4gICAgICAgICAgICBwYWdpbmF0aW9uOiB7XHJcbiAgICAgICAgICAgICAgICBlbDogcGFnaW5hdGlvbixcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH0pO1xyXG4gICAgfSk7XHJcbn0pOyJdLCJtYXBwaW5ncyI6IkFBQUFBLFFBQVEsQ0FBQ0MsZ0JBQWdCLENBQUMsa0JBQWtCLEVBQUUsWUFBTTtFQUNoRCxJQUFNQyxNQUFNLEdBQUdGLFFBQVEsQ0FBQ0csZ0JBQWdCLENBQUMsa0JBQWtCLENBQUM7RUFFNUQsSUFBSSxDQUFDRCxNQUFNLENBQUNFLE1BQU0sRUFBRTtFQUVwQkYsTUFBTSxDQUFDRyxPQUFPLENBQUMsVUFBQUMsS0FBSyxFQUFJO0lBQ3BCLElBQU1DLE1BQU0sR0FBR0QsS0FBSyxDQUFDRSxhQUFhLENBQUMsU0FBUyxDQUFDO0lBQzdDLElBQU1DLFVBQVUsR0FBR0gsS0FBSyxDQUFDRSxhQUFhLENBQUMsb0JBQW9CLENBQUM7SUFFNUQsSUFBTUUsTUFBTSxHQUFHLElBQUlDLE1BQU0sQ0FBQ0osTUFBTSxFQUFFO01BQzlCSyxhQUFhLEVBQUUsQ0FBQztNQUNoQkgsVUFBVSxFQUFFO1FBQ1JJLEVBQUUsRUFBRUo7TUFDUjtJQUNKLENBQUMsQ0FBQztFQUNOLENBQUMsQ0FBQztBQUNOLENBQUMsQ0FBQyIsImlnbm9yZUxpc3QiOltdLCJmaWxlIjoiLi9hc3NldHMvanMvc2NyaXB0cy9iYW5uZXIuanMiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./assets/js/scripts/banner.js\n");
+
+/***/ }),
+
 /***/ "./assets/js/scripts/fancybox.js":
 /*!***************************************!*\
   !*** ./assets/js/scripts/fancybox.js ***!
@@ -51,6 +61,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./template-parts/acf-blocks/banner/style.scss":
+/*!*****************************************************!*\
+  !*** ./template-parts/acf-blocks/banner/style.scss ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2Jhbm5lci9zdHlsZS5zY3NzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2FzX3dlYnBhY2tfY29uZmlnLy4vdGVtcGxhdGUtcGFydHMvYWNmLWJsb2Nrcy9iYW5uZXIvc3R5bGUuc2Nzcz9lZTkzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/banner/style.scss\n");
+
+/***/ }),
+
 /***/ "./template-parts/acf-blocks/gallery/style.scss":
 /*!******************************************************!*\
   !*** ./template-parts/acf-blocks/gallery/style.scss ***!
@@ -58,7 +79,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2dhbGxlcnkvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvZ2FsbGVyeS9zdHlsZS5zY3NzP2IzNmQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/gallery/style.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2dhbGxlcnkvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvZ2FsbGVyeS9zdHlsZS5zY3NzPzIwMmEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/gallery/style.scss\n");
 
 /***/ }),
 
@@ -69,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3M/ZjgzNSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/image-and-content/style.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL2ltYWdlLWFuZC1jb250ZW50L3N0eWxlLnNjc3M/NmI2YyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/image-and-content/style.scss\n");
 
 /***/ }),
 
@@ -80,7 +101,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL3Jldmlld3Mvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvcmV2aWV3cy9zdHlsZS5zY3NzPzBlNDYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/reviews/style.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi90ZW1wbGF0ZS1wYXJ0cy9hY2YtYmxvY2tzL3Jldmlld3Mvc3R5bGUuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL3RlbXBsYXRlLXBhcnRzL2FjZi1ibG9ja3MvcmV2aWV3cy9zdHlsZS5zY3NzPzFhNWYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./template-parts/acf-blocks/reviews/style.scss\n");
 
 /***/ })
 
@@ -172,10 +193,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/as-scripts": 0,
 /******/ 			"assets/css/as-style": 0,
-/******/ 			"template-parts/acf-blocks/image-and-content/style": 0,
 /******/ 			"template-parts/acf-blocks/reviews/style": 0,
-/******/ 			"template-parts/acf-blocks/gallery/style": 0,
-/******/ 			"assets/css/as-admin-style": 0
+/******/ 			"template-parts/acf-blocks/image-and-content/style": 0,
+/******/ 			"template-parts/acf-blocks/banner/style": 0,
+/******/ 			"assets/css/as-admin-style": 0,
+/******/ 			"template-parts/acf-blocks/gallery/style": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -225,13 +247,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/reviews/style.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/gallery/style","assets/css/as-admin-style"], () => (__webpack_require__("./template-parts/acf-blocks/image-and-content/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/banner.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./template-parts/acf-blocks/banner/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./template-parts/acf-blocks/image-and-content/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./template-parts/acf-blocks/reviews/style.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./template-parts/acf-blocks/gallery/style.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

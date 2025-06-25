@@ -26,11 +26,14 @@ mix.sass('assets/scss/as-admin-style.scss', 'assets/css')
 
 
 // ACF Blocks
-mix.sass('template-parts/acf-blocks/gallery/style.scss', 'template-parts/acf-blocks/gallery')
+mix.sass('template-parts/acf-blocks/banner/style.scss', 'template-parts/acf-blocks/banner')
+    .sourceMaps();
+
+mix.sass('template-parts/acf-blocks/image-and-content/style.scss', 'template-parts/acf-blocks/image-and-content')
     .sourceMaps();
 
 mix.sass('template-parts/acf-blocks/reviews/style.scss', 'template-parts/acf-blocks/reviews')
     .sourceMaps();
 
-mix.sass('template-parts/acf-blocks/image-and-content/style.scss', 'template-parts/acf-blocks/image-and-content')
+mix.sass('template-parts/acf-blocks/gallery/style.scss', 'template-parts/acf-blocks/gallery')
     .sourceMaps();

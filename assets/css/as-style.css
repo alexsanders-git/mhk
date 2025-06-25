@@ -358,10 +358,6 @@ html {
   justify-content: space-between;
 }
 
-.as-page-content {
-  margin-top: 100px;
-}
-
 .as-container {
   width: 100%;
   max-width: 1300px;
