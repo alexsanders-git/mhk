@@ -9,6 +9,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./assets/js/as-helpers.js":
+/*!*********************************!*\
+  !*** ./assets/js/as-helpers.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   disableScroll: () => (/* binding */ disableScroll),\n/* harmony export */   enableScroll: () => (/* binding */ enableScroll)\n/* harmony export */ });\nvar disableScroll = function disableScroll() {\n  var body = document.body;\n  var paddingOffset = window.innerWidth - body.offsetWidth + 'px';\n  var pagePosition = window.scrollY;\n  body.style.paddingRight = paddingOffset;\n  body.classList.add('lock');\n  body.dataset.position = pagePosition;\n  body.style.top = -pagePosition + 'px';\n};\nvar enableScroll = function enableScroll() {\n  var body = document.body;\n  var pagePosition = parseInt(body.dataset.position, 10);\n  body.style.top = 'auto';\n  body.classList.remove('lock');\n  body.style.paddingRight = '0px';\n  window.scroll({\n    top: pagePosition,\n    left: 0\n  });\n  body.removeAttribute('data-position');\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvanMvYXMtaGVscGVycy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFPLElBQU1BLGFBQWEsR0FBRyxTQUFoQkEsYUFBYUEsQ0FBQSxFQUFTO0VBQy9CLElBQU1DLElBQUksR0FBR0MsUUFBUSxDQUFDRCxJQUFJO0VBRTFCLElBQUlFLGFBQWEsR0FBR0MsTUFBTSxDQUFDQyxVQUFVLEdBQUdKLElBQUksQ0FBQ0ssV0FBVyxHQUFHLElBQUk7RUFDL0QsSUFBSUMsWUFBWSxHQUFHSCxNQUFNLENBQUNJLE9BQU87RUFFakNQLElBQUksQ0FBQ1EsS0FBSyxDQUFDQyxZQUFZLEdBQUdQLGFBQWE7RUFDdkNGLElBQUksQ0FBQ1UsU0FBUyxDQUFDQyxHQUFHLENBQUMsTUFBTSxDQUFDO0VBQzFCWCxJQUFJLENBQUNZLE9BQU8sQ0FBQ0MsUUFBUSxHQUFHUCxZQUFZO0VBQ3BDTixJQUFJLENBQUNRLEtBQUssQ0FBQ00sR0FBRyxHQUFHLENBQUNSLFlBQVksR0FBRyxJQUFJO0FBQ3pDLENBQUM7QUFFTSxJQUFNUyxZQUFZLEdBQUcsU0FBZkEsWUFBWUEsQ0FBQSxFQUFTO0VBQzlCLElBQU1mLElBQUksR0FBR0MsUUFBUSxDQUFDRCxJQUFJO0VBRTFCLElBQUlNLFlBQVksR0FBR1UsUUFBUSxDQUFDaEIsSUFBSSxDQUFDWSxPQUFPLENBQUNDLFFBQVEsRUFBRSxFQUFFLENBQUM7RUFFdERiLElBQUksQ0FBQ1EsS0FBSyxDQUFDTSxHQUFHLEdBQUcsTUFBTTtFQUN2QmQsSUFBSSxDQUFDVSxTQUFTLENBQUNPLE1BQU0sQ0FBQyxNQUFNLENBQUM7RUFFN0JqQixJQUFJLENBQUNRLEtBQUssQ0FBQ0MsWUFBWSxHQUFHLEtBQUs7RUFFL0JOLE1BQU0sQ0FBQ2UsTUFBTSxDQUFDO0lBQ1ZKLEdBQUcsRUFBRVIsWUFBWTtJQUNqQmEsSUFBSSxFQUFFO0VBQ1YsQ0FBQyxDQUFDO0VBRUZuQixJQUFJLENBQUNvQixlQUFlLENBQUMsZUFBZSxDQUFDO0FBQ3pDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc193ZWJwYWNrX2NvbmZpZy8uL2Fzc2V0cy9qcy9hcy1oZWxwZXJzLmpzP2IzYmEiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGRpc2FibGVTY3JvbGwgPSAoKSA9PiB7XHJcbiAgICBjb25zdCBib2R5ID0gZG9jdW1lbnQuYm9keTtcclxuXHJcbiAgICBsZXQgcGFkZGluZ09mZnNldCA9IHdpbmRvdy5pbm5lcldpZHRoIC0gYm9keS5vZmZzZXRXaWR0aCArICdweCc7XHJcbiAgICBsZXQgcGFnZVBvc2l0aW9uID0gd2luZG93LnNjcm9sbFk7XHJcblxyXG4gICAgYm9keS5zdHlsZS5wYWRkaW5nUmlnaHQgPSBwYWRkaW5nT2Zmc2V0O1xyXG4gICAgYm9keS5jbGFzc0xpc3QuYWRkKCdsb2NrJyk7XHJcbiAgICBib2R5LmRhdGFzZXQucG9zaXRpb24gPSBwYWdlUG9zaXRpb247XHJcbiAgICBib2R5LnN0eWxlLnRvcCA9IC1wYWdlUG9zaXRpb24gKyAncHgnO1xyXG59XHJcblxyXG5leHBvcnQgY29uc3QgZW5hYmxlU2Nyb2xsID0gKCkgPT4ge1xyXG4gICAgY29uc3QgYm9keSA9IGRvY3VtZW50LmJvZHk7XHJcblxyXG4gICAgbGV0IHBhZ2VQb3NpdGlvbiA9IHBhcnNlSW50KGJvZHkuZGF0YXNldC5wb3NpdGlvbiwgMTApO1xyXG5cclxuICAgIGJvZHkuc3R5bGUudG9wID0gJ2F1dG8nO1xyXG4gICAgYm9keS5jbGFzc0xpc3QucmVtb3ZlKCdsb2NrJyk7XHJcblxyXG4gICAgYm9keS5zdHlsZS5wYWRkaW5nUmlnaHQgPSAnMHB4JztcclxuXHJcbiAgICB3aW5kb3cuc2Nyb2xsKHtcclxuICAgICAgICB0b3A6IHBhZ2VQb3NpdGlvbixcclxuICAgICAgICBsZWZ0OiAwXHJcbiAgICB9KTtcclxuXHJcbiAgICBib2R5LnJlbW92ZUF0dHJpYnV0ZSgnZGF0YS1wb3NpdGlvbicpO1xyXG59Il0sIm5hbWVzIjpbImRpc2FibGVTY3JvbGwiLCJib2R5IiwiZG9jdW1lbnQiLCJwYWRkaW5nT2Zmc2V0Iiwid2luZG93IiwiaW5uZXJXaWR0aCIsIm9mZnNldFdpZHRoIiwicGFnZVBvc2l0aW9uIiwic2Nyb2xsWSIsInN0eWxlIiwicGFkZGluZ1JpZ2h0IiwiY2xhc3NMaXN0IiwiYWRkIiwiZGF0YXNldCIsInBvc2l0aW9uIiwidG9wIiwiZW5hYmxlU2Nyb2xsIiwicGFyc2VJbnQiLCJyZW1vdmUiLCJzY3JvbGwiLCJsZWZ0IiwicmVtb3ZlQXR0cmlidXRlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/js/as-helpers.js\n");
+
+/***/ }),
+
 /***/ "./assets/js/scripts/banner.js":
 /*!*************************************!*\
   !*** ./assets/js/scripts/banner.js ***!
@@ -26,6 +37,17 @@ eval("document.addEventListener('DOMContentLoaded', function () {\n  var blocks 
 /***/ (() => {
 
 eval("document.addEventListener('DOMContentLoaded', function () {\n  Fancybox.bind('[data-fancybox]', {\n    Carousel: {\n      transition: 'slide'\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkb2N1bWVudCIsImFkZEV2ZW50TGlzdGVuZXIiLCJGYW5jeWJveCIsImJpbmQiLCJDYXJvdXNlbCIsInRyYW5zaXRpb24iXSwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi9hc3NldHMvanMvc2NyaXB0cy9mYW5jeWJveC5qcz9lNmZkIl0sInNvdXJjZXNDb250ZW50IjpbImRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ0RPTUNvbnRlbnRMb2FkZWQnLCAoKSA9PiB7XHJcbiAgICBGYW5jeWJveC5iaW5kKCdbZGF0YS1mYW5jeWJveF0nLCB7XHJcbiAgICAgICAgQ2Fyb3VzZWw6IHtcclxuICAgICAgICAgICAgdHJhbnNpdGlvbjogJ3NsaWRlJ1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG59KTsiXSwibWFwcGluZ3MiOiJBQUFBQSxRQUFRLENBQUNDLGdCQUFnQixDQUFDLGtCQUFrQixFQUFFLFlBQU07RUFDaERDLFFBQVEsQ0FBQ0MsSUFBSSxDQUFDLGlCQUFpQixFQUFFO0lBQzdCQyxRQUFRLEVBQUU7TUFDTkMsVUFBVSxFQUFFO0lBQ2hCO0VBQ0osQ0FBQyxDQUFDO0FBQ04sQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W10sImZpbGUiOiIuL2Fzc2V0cy9qcy9zY3JpcHRzL2ZhbmN5Ym94LmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./assets/js/scripts/fancybox.js\n");
+
+/***/ }),
+
+/***/ "./assets/js/scripts/mobile-menu.js":
+/*!******************************************!*\
+  !*** ./assets/js/scripts/mobile-menu.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _as_helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../as-helpers */ \"./assets/js/as-helpers.js\");\n\ndocument.addEventListener('DOMContentLoaded', function () {\n  var header = document.querySelectorAll('.as-header');\n  if (!header) return;\n  var menu = document.querySelector('.mobile-menu');\n  var burger = document.querySelector('.burger');\n  if (!menu || !burger) return;\n  burger.addEventListener('click', function () {\n    if (menu.classList.contains('active')) {\n      menu.classList.remove('active');\n      burger.classList.remove('active');\n      (0,_as_helpers__WEBPACK_IMPORTED_MODULE_0__.enableScroll)();\n    } else {\n      menu.classList.add('active');\n      burger.classList.add('active');\n      (0,_as_helpers__WEBPACK_IMPORTED_MODULE_0__.disableScroll)();\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvanMvc2NyaXB0cy9tb2JpbGUtbWVudS5qcyIsIm1hcHBpbmdzIjoiOztBQUE0RDtBQUU1REUsUUFBUSxDQUFDQyxnQkFBZ0IsQ0FBQyxrQkFBa0IsRUFBRSxZQUFNO0VBQ2hELElBQU1DLE1BQU0sR0FBR0YsUUFBUSxDQUFDRyxnQkFBZ0IsQ0FBQyxZQUFZLENBQUM7RUFFdEQsSUFBSSxDQUFDRCxNQUFNLEVBQUU7RUFFYixJQUFNRSxJQUFJLEdBQUdKLFFBQVEsQ0FBQ0ssYUFBYSxDQUFDLGNBQWMsQ0FBQztFQUNuRCxJQUFNQyxNQUFNLEdBQUdOLFFBQVEsQ0FBQ0ssYUFBYSxDQUFDLFNBQVMsQ0FBQztFQUVoRCxJQUFJLENBQUNELElBQUksSUFBSSxDQUFDRSxNQUFNLEVBQUU7RUFFdEJBLE1BQU0sQ0FBQ0wsZ0JBQWdCLENBQUMsT0FBTyxFQUFFLFlBQU07SUFDbkMsSUFBSUcsSUFBSSxDQUFDRyxTQUFTLENBQUNDLFFBQVEsQ0FBQyxRQUFRLENBQUMsRUFBRTtNQUNuQ0osSUFBSSxDQUFDRyxTQUFTLENBQUNFLE1BQU0sQ0FBQyxRQUFRLENBQUM7TUFDL0JILE1BQU0sQ0FBQ0MsU0FBUyxDQUFDRSxNQUFNLENBQUMsUUFBUSxDQUFDO01BRWpDVix5REFBWSxDQUFDLENBQUM7SUFDbEIsQ0FBQyxNQUFNO01BQ0hLLElBQUksQ0FBQ0csU0FBUyxDQUFDRyxHQUFHLENBQUMsUUFBUSxDQUFDO01BQzVCSixNQUFNLENBQUNDLFNBQVMsQ0FBQ0csR0FBRyxDQUFDLFFBQVEsQ0FBQztNQUU5QlosMERBQWEsQ0FBQyxDQUFDO0lBQ25CO0VBQ0osQ0FBQyxDQUFDO0FBQ04sQ0FBQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXNfd2VicGFja19jb25maWcvLi9hc3NldHMvanMvc2NyaXB0cy9tb2JpbGUtbWVudS5qcz9jZmEwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGRpc2FibGVTY3JvbGwsIGVuYWJsZVNjcm9sbCB9IGZyb20gXCIuLi9hcy1oZWxwZXJzXCI7XHJcblxyXG5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4ge1xyXG4gICAgY29uc3QgaGVhZGVyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLmFzLWhlYWRlcicpO1xyXG5cclxuICAgIGlmICghaGVhZGVyKSByZXR1cm47XHJcblxyXG4gICAgY29uc3QgbWVudSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5tb2JpbGUtbWVudScpO1xyXG4gICAgY29uc3QgYnVyZ2VyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmJ1cmdlcicpO1xyXG5cclxuICAgIGlmICghbWVudSB8fCAhYnVyZ2VyKSByZXR1cm47XHJcblxyXG4gICAgYnVyZ2VyLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKCkgPT4ge1xyXG4gICAgICAgIGlmIChtZW51LmNsYXNzTGlzdC5jb250YWlucygnYWN0aXZlJykpIHtcclxuICAgICAgICAgICAgbWVudS5jbGFzc0xpc3QucmVtb3ZlKCdhY3RpdmUnKTtcclxuICAgICAgICAgICAgYnVyZ2VyLmNsYXNzTGlzdC5yZW1vdmUoJ2FjdGl2ZScpO1xyXG5cclxuICAgICAgICAgICAgZW5hYmxlU2Nyb2xsKCk7XHJcbiAgICAgICAgfSBlbHNlIHtcclxuICAgICAgICAgICAgbWVudS5jbGFzc0xpc3QuYWRkKCdhY3RpdmUnKTtcclxuICAgICAgICAgICAgYnVyZ2VyLmNsYXNzTGlzdC5hZGQoJ2FjdGl2ZScpO1xyXG5cclxuICAgICAgICAgICAgZGlzYWJsZVNjcm9sbCgpO1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG59KTsiXSwibmFtZXMiOlsiZGlzYWJsZVNjcm9sbCIsImVuYWJsZVNjcm9sbCIsImRvY3VtZW50IiwiYWRkRXZlbnRMaXN0ZW5lciIsImhlYWRlciIsInF1ZXJ5U2VsZWN0b3JBbGwiLCJtZW51IiwicXVlcnlTZWxlY3RvciIsImJ1cmdlciIsImNsYXNzTGlzdCIsImNvbnRhaW5zIiwicmVtb3ZlIiwiYWRkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/js/scripts/mobile-menu.js\n");
 
 /***/ }),
 
@@ -167,6 +189,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -249,6 +283,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/banner.js")))
 /******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/fancybox.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/mobile-menu.js")))
 /******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/js/scripts/reviews.js")))
 /******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/scss/as-style.scss")))
 /******/ 	__webpack_require__.O(undefined, ["assets/css/as-style","template-parts/acf-blocks/reviews/style","template-parts/acf-blocks/image-and-content/style","template-parts/acf-blocks/banner/style","assets/css/as-admin-style","template-parts/acf-blocks/gallery/style"], () => (__webpack_require__("./assets/scss/as-admin-style.scss")))

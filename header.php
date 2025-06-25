@@ -23,13 +23,15 @@
  -->
 
 	<?php
+	$transparent_header = get_field('transparent_header');
+
 	$logo = get_field('header_logo', 'option');
 	$social_links = get_field('social_links', 'option');
 	?>
 
 	<div class="as-body-inner">
 		<!-- HEADER -->
-		<header id="as-header" class="as-header">
+		<header id="as-header" class="as-header<?= $transparent_header ? ' transparent' : ''; ?>">
 			<div class="as-container">
 				<div class="wrapper">
 					<div class="left">
@@ -76,6 +78,31 @@
 							</a>
 						</div>
 					</div>
+
+					<div class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</div>
+
+				<nav class="mobile-menu">
+					<?php
+					wp_nav_menu([
+						'theme_location' => 'header-left-menu',
+						'container' => 'false',
+						'menu_class' => 'menu-list',
+					]);
+					?>
+
+					<?php
+					wp_nav_menu([
+						'theme_location' => 'header-right-menu',
+						'container' => 'false',
+						'menu_class' => 'menu-list',
+					]);
+					?>
+				</nav>
 			</div>
 		</header>
