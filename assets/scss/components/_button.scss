@@ -29,4 +29,23 @@
             }
         }
     }
+
+    &--transparent {
+        color: var(--as-white-color);
+        border: 1px solid var(--as-white-color);
+
+        @media (hover: hover) {
+            &:hover {
+                color: var(--as-primary-color);
+                background: var(--as-white-color);
+            }
+        }
+
+        @media (hover: none) {
+            &:active {
+                color: var(--as-primary-color);
+                background: var(--as-white-color);
+            }
+        }
+    }
 }

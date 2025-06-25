@@ -22,10 +22,60 @@
 ====================================================================
  -->
 
+	<?php
+	$logo = get_field('header_logo', 'option');
+	$social_links = get_field('social_links', 'option');
+	?>
+
 	<div class="as-body-inner">
 		<!-- HEADER -->
 		<header id="as-header" class="as-header">
 			<div class="as-container">
-				<!--  Your code here...  -->
+				<div class="wrapper">
+					<div class="left">
+						<?php if ($social_links) : ?>
+							<ul class="social-links">
+								<?php foreach ($social_links as $social_link) : ?>
+									<li>
+										<a href="<?= $social_link['link']; ?>" target="_blank">
+											<i class="fa-brands <?= $social_link['social_media']; ?>"></i>
+										</a>
+									</li>
+								<?php endforeach; ?>
+							</ul>
+						<?php endif; ?>
+
+						<?php
+						wp_nav_menu([
+							'theme_location' => 'header-left-menu',
+							'container' => 'false',
+							'menu_class' => 'menu-list',
+						]);
+						?>
+					</div>
+
+					<div class="logo">
+						<a href="<?= home_url('/'); ?>">
+							<?= wp_get_attachment_image($logo, 'thumbnail'); ?>
+						</a>
+					</div>
+
+					<div class="right">
+						<?php
+						wp_nav_menu([
+							'theme_location' => 'header-right-menu',
+							'container' => 'false',
+							'menu_class' => 'menu-list',
+						]);
+						?>
+
+						<div class="button">
+							<a href="#!" class="as-button as-button--transparent">
+								My Order
+								<i class="fa-solid fa-cart-shopping"></i>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
