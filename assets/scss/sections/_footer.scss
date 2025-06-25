@@ -5,6 +5,10 @@
 
     .top {
         margin-bottom: 42px;
+
+        @media only screen and (max-width: $media-sm) {
+            margin-bottom: 20px;
+        }
     }
 
     .logo {
@@ -42,11 +46,25 @@
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
+
+        @media only screen and (max-width: $media-lg) {
+            column-gap: 50px;
+        }
+
+        @media only screen and (max-width: $media-md) {
+            flex-direction: column;
+            row-gap: 50px;
+            text-align: center;
+        }
     }
 
     .menu {
         width: 100%;
         max-width: calc(70% - 50px);
+
+        @media only screen and (max-width: $media-md) {
+            max-width: unset;
+        }
     }
 
     .menu-list {
@@ -55,6 +73,16 @@
         display: flex;
         column-gap: 100px;
         justify-content: space-between;
+
+        @media only screen and (max-width: $media-lg) {
+            column-gap: 50px;
+        }
+
+        @media only screen and (max-width: $media-md) {
+            flex-direction: column;
+            row-gap: 50px;
+            text-align: center;
+        }
     }
 
     .menu-item-has-children {
@@ -70,6 +98,10 @@
             line-height: 1.75;
             color: var(--as-white-color);
             pointer-events: none;
+
+            @media only screen and (max-width: $media-sm) {
+                margin-bottom: 20px;
+            }
         }
     }
 
@@ -103,6 +135,10 @@
     .social {
         width: 100%;
         max-width: calc(30% - 50px);
+
+        @media only screen and (max-width: $media-md) {
+            max-width: unset;
+        }
     }
 
     .social__title {
@@ -112,13 +148,23 @@
         font-weight: 700;
         line-height: 1.75;
         color: var(--as-white-color);
+
+        @media only screen and (max-width: $media-sm) {
+            margin-bottom: 20px;
+        }
     }
 
     .social-links {
         @include as-reset-list;
 
         display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
         column-gap: 15px;
+
+        @media only screen and (max-width: $media-md) {
+            justify-content: center;
+        }
 
         a {
             @include as-reset-link;
